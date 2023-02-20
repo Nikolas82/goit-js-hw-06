@@ -4,6 +4,8 @@ const incrementBtn = document.querySelector('[data-action = "increment"]');
 
 let counterValue = 0;
 
+console.log(decrementBtn)
+
 const decrementCounter = () => {
   counterValue -= 1;
   value.textContent = counterValue;
